@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Look Médico</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+          integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/34a7dbe591.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Source+Serif+Pro&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"></a>
+            <div class="logo">
+                <a class="navbar-brand" href="#">
+                    <img src="images/isologo.png" alt=""></a>
+                <h2 class="logonombre">Look Médico</h2>
+            </div>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i >
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About us</a></li>
+                    <li><a href="#service">Our service</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#product">Product</a></li>
+                    <li><a href="#benefits">Benefits</a></li>
+                    <li><a href="#contact">Contact us</a></li>
+                    <a href="" type="button" class="btn">SIGN UP</a>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </section>
+    <section id=home class="home">
+        <div class="background-image" style="background-image: url(images/home-bg-img.jpg)"> </div>
+        <div class="translate">
+            <span class="en">English</span>
+            <input type="checkbox" class="check">
+            <span class="es">Spanish</span>
+        </div>
+        <div class="row">
+            <div class="home-col">
+                <h1 class="title">Your best option to get <br>your best uniforms and <br> suppliers</h1>
+                <p>Try it now by signing up and get in contact with the best suppliers.<br>
+                    Find your health garments, your style, your comfortability, it's totally free.
+                </p>
+                <a href="" class="btn1">TRY IT NOW</a>
+            </div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <h2 class="title"> About us </h2>
+        <div class="box-container">
+            <div class="box">
+                <img src="images/abu-photo1.svg" alt="">
+                <h3>Our story</h3>
+                <p> LookMédico was born with the purpose of being a tool that provides support to its users when looking
+                    for a desired garment, requesting the manufacture and delivery of the product.</p>
+            </div>
+            <div class="box">
+                <img src="images/otro.png" alt="" >
+                <h3>Our purpose</h3>
+                <p>Our purpose is to offer a wide range of products, from uniforms to accessories, with customizable
+                    options to suit individual customer preferences and create lasting relationships with our
+                    customers.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="service" id="service">
+        <h2 class="title"> Our Service </h2>
+        <div class="column">
+            <div class="image">
+                <img src="images/interface.svg" alt="">
+            </div>
+            <div class="content">
+                <h4>QUALITY AND TRUST</h4> <br>
+                <h3>We offer the best options <br>for our clients</h3>
+                <p>LookMédico offers a direct connection with customers and suppliers,<br> quality in garments, purchase
+                    security and reliability.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class=team id="team">
+        <h2 class="title">Team</h2>
+        <div class="box">
+            <div class="team-col">
+                <img src="images/1_mijael.jpeg" alt class="img-responsive" alt="" height="150px">
+                <h4>Mijael Yen</h4>
+                <p>Software Engineer</p>
+            </div>
+            <div class="team-col">
+                <img src="images/2_alvaro.png" alt class="img-responsive" alt="" height="150px">
+                <h4>Alvaro Hidalgo</h4>
+                <p>Software Engineer</p>
+            </div>
+            <div class="team-col">
+                <img src="images/4_lisseth.png" alt class="img-responsive" alt="" height="150px">
+                <h4>Lisseth Saavedra</h4>
+                <p>Software Engineer</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="team-col">
+                <img src="images/3_jesus.jpeg" alt class="img-responsive" alt="" height="150px">
+                <h4>Jesus Sagastegui</h4>
+                <p>Software Engineer</p>
+            </div>
+            <div class="team-col">
+                <img src="images/5_gerald.jpeg" alt class="img-responsive" alt="" height="150px">
+                <h4>Gerald Serrano</h4>
+                <p>Software Engineer</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="product" id="product">
+        <h2 class="title"> Product </h2>
+        <div class="column">
+            <div class="video">
+                <iframe width="560" height="315" src="https://youtu.be/2MEy18SPIDM?si=f6QRe79UXYWu9eTv"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+            </div>
+            <div class="content">
+                <h3>Join the fastest and most reliable way to buy or sell uniforms</h3>
+                <p>We offer better interaction for our customers. In our application, we have worked to offer a service that adapts to our users and their needs.</p>
+                <p>As a supplier you can add your products to offer them to thousands of people. As a buyer you will have access to hundreds of products for the health sector and find the garment that suits you.</p>
+            </div>
+        </div>
+        <div class="review">
+            <h3> What say our clients?</h3>
+        </div>
+        <div class="box">
+            <div class="product-col">
+                <img src="images/provider-1.svg" alt class="img-responsive" alt="" height="150px">
+                <h4>Manuel Hinostroza</h4>
+                <h4>Entrepenour</h4>
+                <p>This service has allowed me to increase my sellings and gain a potential number of clients.</p>
+            </div>
+            <div class="product-col">
+                <img src="images/client-1.svg" alt class="img-responsive" alt="" height="150px">
+                <h4>Renzo Estigarribia</h4>
+                <h4>Doctor</h4>
+                <p>I found this very useful. I have save time and money.</p>
+            </div>
+            <div class="product-col">
+                <img src="images/client-2.svg" alt class="img-responsive" alt="" height="150px">
+                <h4>Melissa Artiaga</h4>
+                <h4>Doctor</h4>
+                <p>I'm very happy with my purchases, I fell comfortable with my garnments, I found the style and size that I couldn't find in my city stores.</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+
+
